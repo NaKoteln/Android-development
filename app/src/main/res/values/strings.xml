@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">lab_1</string>
+    <string name="screen_a">Экран A</string>
+    <string name="screen_b">Экран B</string>
+    <string name="screen_c">Экран C</string>
+    <string name="button_a">Перейти на B</string>
+    <string name="button_b">Перейти на C</string>
+    <string name="button_c">Перейти на A</string>
+</resources>
