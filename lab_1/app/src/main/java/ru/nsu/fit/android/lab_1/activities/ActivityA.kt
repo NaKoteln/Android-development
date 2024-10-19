@@ -4,7 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import androidx.activity.addCallback
 import androidx.core.app.ActivityOptionsCompat
 import ru.nsu.fit.android.lab_1.R
 
@@ -14,10 +13,6 @@ class ActivityA : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.activity_a)
-
-        onBackPressedDispatcher.addCallback(this) {
-            finishAffinity()
-        }
     }
 
     fun goToB(view: View) {
