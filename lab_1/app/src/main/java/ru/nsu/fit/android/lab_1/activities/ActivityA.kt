@@ -17,7 +17,7 @@ class ActivityA : AppCompatActivity() {
 
     fun goToB(view: View) {
         val intent = Intent(this, ActivityB::class.java)
-        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(this) // Создайте объект для анимации
+        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(this)
         startActivity(intent, options.toBundle())
     }
 
