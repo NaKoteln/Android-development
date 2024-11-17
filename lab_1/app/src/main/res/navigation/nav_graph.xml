@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/activityA">
+
+    <activity
+        android:id="@+id/activityA"
+        android:name="ru.nsu.fit.android.lab_1.activities.ActivityA"
+        tools:layout="@layout/activity_a" />
+
+    <activity
+        android:id="@+id/activityB"
+        android:name="ru.nsu.fit.android.lab_1.activities.ActivityB"
+        tools:layout="@layout/activity_b" />
+
+    <activity
+        android:id="@+id/activityC"
+        android:name="ru.nsu.fit.android.lab_1.activities.ActivityC"
+        tools:layout="@layout/activity_c" />
+</navigation>
