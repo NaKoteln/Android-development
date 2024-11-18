@@ -14,7 +14,6 @@
         android:clipToPadding="false"
         android:padding="8dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        tools:itemCount="10"
         tools:listitem="@layout/item_song" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
